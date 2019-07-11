@@ -1,0 +1,16 @@
+{
+    ["__version"] = "2.2.7"
+,   cmdlines = 
+    {
+        "xmake"
+    ,   "xmake lua /home/lc/.local/share/xmake/actions/build/statistics.lua"
+    ,   "xmake lua private.utils.complete 7 \"xmake c\""
+    ,   "xmake lua private.utils.complete 8 \"xmake cl\""
+    ,   "xmake lua private.utils.complete 11 \"xmake clean\""
+    ,   "xmake lua private.utils.complete 11 \"xmake clean\""
+    ,   "xmake clean"
+    ,   "xmake"
+    ,   "xmake"
+    ,   "xmake"
+    }
+}

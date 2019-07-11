@@ -1,0 +1,7 @@
+{
+    "git.ignoreLimitWarning": true
+    "activationEvents":[
+        "workspaceContains:xmake.lua",
+        "onCommand:xmake.sayHello"
+    ]
+}

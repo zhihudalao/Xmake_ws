@@ -1,0 +1,55 @@
+{
+    find_program = 
+    {
+        ["pkg-config"] = "/usr/bin/pkg-config"
+    ,   ccache = "/usr/bin/ccache"
+    ,   ping = "/bin/ping"
+    ,   gzip = "/bin/gzip"
+    ,   brew = false
+    ,   unzip = "/usr/bin/unzip"
+    ,   git = "/usr/bin/git"
+    ,   tar = "/bin/tar"
+    ,   nmap = false
+    }
+,   ["detect.sdks.find_cuda"] = 
+    {
+        cuda = false
+    }
+,   ["detect.sdks.find_vcpkgdir."] = 
+    {
+        vcpkg = false
+    }
+,   ["net.ping"] = 
+    {
+        ["gitee.com"] = 27.6
+    ,   ["gitlab.com"] = 321
+    ,   ["github.com"] = 65535
+    }
+,   ["__version"] = "2.2.7"
+,   find_package_linux_x86_64_release = 
+    {
+        roscpp = 
+        {
+            links = 
+            {
+                "roscpp"
+            ,   "rosconsole"
+            ,   "rosconsole_log4cxx"
+            ,   "rosconsole_backend_interface"
+            ,   "roscpp_serialization"
+            ,   "xmlrpcpp"
+            ,   "rostime"
+            ,   "cpp_common"
+            }
+        ,   linkdirs = 
+            {
+                "/opt/ros/kinetic/lib"
+            }
+        ,   version = "1.12.14"
+        ,   includedirs = 
+            {
+                "/opt/ros/kinetic/include"
+            }
+        }
+    }
+}

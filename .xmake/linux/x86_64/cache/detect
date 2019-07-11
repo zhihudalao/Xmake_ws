@@ -1,0 +1,18 @@
+{
+    find_program = 
+    {
+        ["g++"] = "/usr/bin/g++"
+    ,   git = "/usr/bin/git"
+    ,   ccache = "/usr/bin/ccache"
+    ,   curl = "/usr/bin/curl"
+    }
+,   ["detect.sdks.find_cuda"] = 
+    {
+        cuda = false
+    }
+,   ["__version"] = "2.2.7"
+,   find_programver = 
+    {
+        ["/usr/bin/curl"] = "7.47.0"
+    }
+}

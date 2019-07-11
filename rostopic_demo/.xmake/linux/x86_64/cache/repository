@@ -1,0 +1,10 @@
+{
+    ["__version"] = "2.2.7"
+,   repositories = 
+    {
+        myrepo = 
+        {
+            "git@github.com:zhihudalao/xmake-repo.git"
+        }
+    }
+}

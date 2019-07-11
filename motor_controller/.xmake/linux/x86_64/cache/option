@@ -1,0 +1,73 @@
+{
+    ["__version"] = "2.2.7"
+,   lib = 
+    {
+        linkdirs = "/opt/ros/kinetic/lib"
+    ,   ["__scriptdir"] = "/home/lc/1_test/xmake/motor_controller"
+    ,   ["__sourceinfo_includedirs"] = 
+        {
+            ["/opt/ros/kinetic/include"] = 
+            {
+                file = "/home/lc/.local/share/xmake/core/project/option.lua"
+            ,   line = 303
+            }
+        }
+    ,   check_after = 
+        {
+        }
+    ,   ["__sourceinfo_showmenu"] = 
+        {
+        }
+    ,   ["__sourceinfo_syslinks"] = 
+        {
+            pthread = 
+            {
+                file = "/home/lc/1_test/xmake/motor_controller/xmake.lua"
+            ,   line = 37
+            }
+        }
+    ,   ["__sourceinfo_linkdirs"] = 
+        {
+            ["/opt/ros/kinetic/lib"] = 
+            {
+                file = "/home/lc/.local/share/xmake/core/project/option.lua"
+            ,   line = 303
+            }
+        }
+    ,   check = 
+        {
+        }
+    ,   syslinks = "pthread"
+    ,   showmenu = true
+    ,   includedirs = "/opt/ros/kinetic/include"
+    ,   links = 
+        {
+            "roscpp"
+        ,   "rosconsole"
+        ,   "rosconsole_log4cxx"
+        ,   "rosconsole_backend_interface"
+        ,   "roscpp_serialization"
+        ,   "xmlrpcpp"
+        ,   "rostime"
+        ,   "cpp_common"
+        ,   "tf"
+        ,   "tf2_ros"
+        ,   "actionlib"
+        ,   "message_filters"
+        ,   "tf2"
+        }
+    ,   version = 
+        {
+            "1.12.14"
+        ,   "0.5.11"
+        ,   "1.11.9"
+        ,   "1.12.7"
+        }
+    ,   check_before = 
+        {
+        }
+    ,   ["__sourceinfo_check"] = 
+        {
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    options_lib = 
+    {
+    }
+,   options_all = 
+    {
+    }
+,   mtimes = 
+    {
+        ["xmake.lua"] = 1562748966
+    }
+,   options_talker = 
+    {
+    }
+,   ["__version"] = "2.2.7"
+,   options_motor_controller = 
+    {
+    }
+}

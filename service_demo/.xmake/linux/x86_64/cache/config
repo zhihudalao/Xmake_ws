@@ -1,0 +1,16 @@
+{
+    options_all = 
+    {
+    }
+,   mtimes = 
+    {
+        ["xmake.lua"] = 1562834270
+    }
+,   options_client = 
+    {
+    }
+,   ["__version"] = "2.2.7"
+,   options_server = 
+    {
+    }
+}

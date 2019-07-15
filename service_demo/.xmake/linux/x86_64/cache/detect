@@ -1,0 +1,49 @@
+{
+    find_program = 
+    {
+        ["pkg-config"] = "/usr/bin/pkg-config"
+    ,   ccache = "/usr/bin/ccache"
+    ,   git = "/usr/bin/git"
+    ,   curl = "/usr/bin/curl"
+    ,   brew = false
+    }
+,   ["detect.sdks.find_cuda"] = 
+    {
+        cuda = false
+    }
+,   ["detect.sdks.find_vcpkgdir."] = 
+    {
+        vcpkg = false
+    }
+,   find_programver = 
+    {
+        ["/usr/bin/curl"] = "7.47.0"
+    }
+,   ["__version"] = "2.2.7"
+,   find_package_linux_x86_64_release = 
+    {
+        roscpp = 
+        {
+            links = 
+            {
+                "roscpp"
+            ,   "rosconsole"
+            ,   "rosconsole_log4cxx"
+            ,   "rosconsole_backend_interface"
+            ,   "roscpp_serialization"
+            ,   "xmlrpcpp"
+            ,   "rostime"
+            ,   "cpp_common"
+            }
+        ,   linkdirs = 
+            {
+                "/opt/ros/kinetic/lib"
+            }
+        ,   version = "1.12.14"
+        ,   includedirs = 
+            {
+                "/opt/ros/kinetic/include"
+            }
+        }
+    }
+}

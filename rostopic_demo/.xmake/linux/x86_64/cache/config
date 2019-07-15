@@ -1,0 +1,19 @@
+{
+    options_all = 
+    {
+        mode = "release"
+    }
+,   mtimes = 
+    {
+        ["xmake.lua"] = 1562826817
+    }
+,   options_talker = 
+    {
+        mode = "release"
+    }
+,   ["__version"] = "2.2.7"
+,   options_listener = 
+    {
+        mode = "release"
+    }
+}

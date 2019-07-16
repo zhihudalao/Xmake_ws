@@ -1,0 +1,8 @@
+{
+    ["__version"] = "2.2.7"
+,   cmdlines = 
+    {
+        "xmake"
+    ,   "xmake run"
+    }
+}

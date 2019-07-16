@@ -1,0 +1,28 @@
+{
+<<<<<<< HEAD
+    options_all = 
+    {
+    }
+,   options_hello = 
+    {
+    }
+,   mtimes = 
+    {
+        ["xmake.lua"] = 1562834454
+    }
+,   ["__version"] = "2.2.7"
+,   options_test = 
+=======
+    mtimes = 
+    {
+        ["xmake.lua"] = 1562644941
+    }
+,   options_all = 
+    {
+    }
+,   ["__version"] = "2.2.7"
+,   options_hello = 
+>>>>>>> c8d03547031f5d35d3359db16e91c7e866408a68
+    {
+    }
+}

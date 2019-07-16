@@ -1,0 +1,106 @@
+{
+<<<<<<< HEAD
+    lib = 
+=======
+    ["__version"] = "2.2.7"
+,   lib = 
+>>>>>>> c8d03547031f5d35d3359db16e91c7e866408a68
+    {
+        linkdirs = "/opt/ros/kinetic/lib"
+    ,   ["__scriptdir"] = "/home/lc/1_test/xmake/rostopic_demo"
+    ,   ["__sourceinfo_includedirs"] = 
+        {
+            ["/opt/ros/kinetic/include"] = 
+            {
+                file = "/home/lc/.local/share/xmake/core/project/option.lua"
+            ,   line = 303
+            }
+        }
+    ,   check_before = 
+        {
+        }
+    ,   includedirs = "/opt/ros/kinetic/include"
+    ,   check_after = 
+        {
+        }
+    ,   check = 
+        {
+        }
+    ,   links = 
+        {
+            "roscpp"
+        ,   "rosconsole"
+        ,   "rosconsole_log4cxx"
+        ,   "rosconsole_backend_interface"
+        ,   "roscpp_serialization"
+        ,   "xmlrpcpp"
+        ,   "rostime"
+        ,   "cpp_common"
+        }
+    ,   version = "1.12.14"
+    ,   ["__sourceinfo_linkdirs"] = 
+        {
+            ["/opt/ros/kinetic/lib"] = 
+            {
+                file = "/home/lc/.local/share/xmake/core/project/option.lua"
+            ,   line = 303
+            }
+        }
+    ,   ["__sourceinfo_check"] = 
+        {
+        }
+    }
+<<<<<<< HEAD
+,   ["__version"] = "2.2.7"
+,   test = 
+    {
+        ["__scriptdir"] = "/home/lc/1_test/xmake/rostopic_demo"
+    ,   ["__sourceinfo_deps"] = 
+        {
+            small = 
+            {
+                file = "/home/lc/1_test/xmake/rostopic_demo/xmake.lua"
+            ,   line = 24
+            }
+        }
+    ,   check_before = 
+        {
+        }
+    ,   deps = "small"
+    ,   ["__sourceinfo_check"] = 
+        {
+        }
+    ,   check_after = 
+        {
+        }
+    ,   default = true
+    ,   ["__sourceinfo_default"] = 
+        {
+        }
+    ,   check = 
+        {
+        }
+    }
+,   small = 
+    {
+        check_before = 
+        {
+        }
+    ,   ["__scriptdir"] = "/home/lc/1_test/xmake/rostopic_demo"
+    ,   ["__sourceinfo_check"] = 
+        {
+        }
+    ,   check_after = 
+        {
+        }
+    ,   default = true
+    ,   ["__sourceinfo_default"] = 
+        {
+        }
+    ,   check = 
+        {
+        }
+    }
+=======
+>>>>>>> c8d03547031f5d35d3359db16e91c7e866408a68
+}

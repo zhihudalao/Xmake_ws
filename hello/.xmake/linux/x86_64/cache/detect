@@ -1,0 +1,53 @@
+{
+    find_program = 
+    {
+<<<<<<< HEAD
+        ccache = "/usr/bin/ccache"
+    ,   curl = "/usr/bin/curl"
+    ,   ping = "/bin/ping"
+    ,   git = "/usr/bin/git"
+    ,   ["/usr/bin/gcc"] = "/usr/bin/gcc"
+    ,   nmap = false
+=======
+        gdb = "/usr/bin/gdb"
+    ,   ccache = "/usr/bin/ccache"
+    ,   gcc = "/usr/bin/gcc"
+    ,   lldb = false
+    ,   ["g++"] = "/usr/bin/g++"
+    ,   curl = "/usr/bin/curl"
+    ,   git = "/usr/bin/git"
+    ,   ["/usr/bin/gcc"] = "/usr/bin/gcc"
+>>>>>>> c8d03547031f5d35d3359db16e91c7e866408a68
+    }
+,   ["detect.sdks.find_cuda"] = 
+    {
+        cuda = false
+    }
+<<<<<<< HEAD
+,   ["lib.detect.has_flags"] = 
+    {
+        ["linux_x86_64_/usr/bin/gcc_5.4.0-6ubuntu1~16.04.11)_cc_cxflags_-MMD -MF /dev/null -m64 -I/usr/local/include -I/usr/include"] = true
+    }
+=======
+>>>>>>> c8d03547031f5d35d3359db16e91c7e866408a68
+,   find_programver = 
+    {
+        ["/usr/bin/gcc"] = "5.4.0-6ubuntu1~16.04.11)"
+    ,   ["/usr/bin/curl"] = "7.47.0"
+    }
+<<<<<<< HEAD
+,   ["net.ping"] = 
+    {
+        ["gitee.com"] = 18.4
+    ,   ["gitlab.com"] = 246
+    ,   ["github.com"] = 65535
+    }
+,   ["__version"] = "2.2.7"
+=======
+,   ["__version"] = "2.2.7"
+,   ["lib.detect.has_flags"] = 
+    {
+        ["linux_x86_64_/usr/bin/gcc_5.4.0-6ubuntu1~16.04.11)_cc_cxflags_-MMD -MF /dev/null -m64 -I/usr/local/include -I/usr/include"] = true
+    }
+>>>>>>> c8d03547031f5d35d3359db16e91c7e866408a68
+}

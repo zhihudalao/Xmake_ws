@@ -1,11 +1,9 @@
 {
     find_program = 
     {
-        ["pkg-config"] = "/usr/bin/pkg-config"
+        ["/usr/bin/gcc"] = "/usr/bin/gcc"
+    ,   ["pkg-config"] = "/usr/bin/pkg-config"
     ,   ccache = "/usr/bin/ccache"
-    ,   ["g++"] = "/usr/bin/g++"
-    ,   ["/usr/bin/gcc"] = "/usr/bin/gcc"
-    ,   gcc = "/usr/bin/gcc"
     ,   brew = false
     }
 ,   ["detect.sdks.find_cuda"] = 
@@ -57,6 +55,7 @@
 ,   ["lib.detect.has_flags"] = 
     {
         ["linux_x86_64_/usr/bin/gcc_5.4.0-6ubuntu1~16.04.11)_cxx__-O3"] = true
+    ,   ["linux_x86_64_/usr/bin/gcc_5.4.0-6ubuntu1~16.04.11)_cxx_cxflags_-MMD -MF /dev/null"] = true
     }
 ,   find_programver = 
     {

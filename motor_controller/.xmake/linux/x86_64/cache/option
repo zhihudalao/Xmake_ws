@@ -3,7 +3,7 @@
 ,   lib = 
     {
         linkdirs = "/opt/ros/kinetic/lib"
-    ,   ["__scriptdir"] = "/home/lc/1_test/xmake_ws/motor_controller"
+    ,   ["__scriptdir"] = "/home/lc/xmake_ws/motor_controller"
     ,   ["__sourceinfo_includedirs"] = 
         {
             ["/opt/ros/kinetic/include"] = 
@@ -22,7 +22,7 @@
         {
             pthread = 
             {
-                file = "/home/lc/1_test/xmake_ws/motor_controller/xmake.lua"
+                file = "/home/lc/xmake_ws/motor_controller/xmake.lua"
             ,   line = 37
             }
         }

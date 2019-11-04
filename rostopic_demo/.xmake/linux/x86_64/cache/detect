@@ -1,22 +1,10 @@
 {
     find_program = 
     {
-        ["pkg-config"] = "/usr/bin/pkg-config"
+        ["/usr/bin/gcc"] = "/usr/bin/gcc"
+    ,   ["pkg-config"] = "/usr/bin/pkg-config"
     ,   ccache = "/usr/bin/ccache"
-<<<<<<< HEAD
-    ,   ["g++"] = "/usr/bin/g++"
-    ,   ["/usr/bin/gcc"] = "/usr/bin/gcc"
-    ,   gcc = "/usr/bin/gcc"
     ,   brew = false
-=======
-    ,   ping = "/bin/ping"
-    ,   gzip = "/bin/gzip"
-    ,   brew = false
-    ,   unzip = "/usr/bin/unzip"
-    ,   git = "/usr/bin/git"
-    ,   tar = "/bin/tar"
-    ,   nmap = false
->>>>>>> c8d03547031f5d35d3359db16e91c7e866408a68
     }
 ,   ["detect.sdks.find_cuda"] = 
     {
@@ -26,7 +14,6 @@
     {
         vcpkg = false
     }
-<<<<<<< HEAD
 ,   ["detect.tools.gcc.has_flags"] = 
     {
         ["/usr/bin/gcc_5.4.0-6ubuntu1~16.04.11)"] = 
@@ -68,18 +55,10 @@
 ,   ["lib.detect.has_flags"] = 
     {
         ["linux_x86_64_/usr/bin/gcc_5.4.0-6ubuntu1~16.04.11)_cxx__-O3"] = true
-    ,   ["linux_x86_64_/usr/bin/gcc_5.4.0-6ubuntu1~16.04.11)_cxx_cxflags_-MMD -MF /dev/null"] = true
     }
 ,   find_programver = 
     {
         ["/usr/bin/gcc"] = "5.4.0-6ubuntu1~16.04.11)"
-=======
-,   ["net.ping"] = 
-    {
-        ["gitee.com"] = 27.6
-    ,   ["gitlab.com"] = 321
-    ,   ["github.com"] = 65535
->>>>>>> c8d03547031f5d35d3359db16e91c7e866408a68
     }
 ,   ["__version"] = "2.2.7"
 ,   find_package_linux_x86_64_release = 

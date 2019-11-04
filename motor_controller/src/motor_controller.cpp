@@ -132,13 +132,9 @@ bool StopRotate(motor_controller::cmd::Request &req,
 }
 
 int main(int argc,char** argv){
-<<<<<<< HEAD
     //cout<<"hello"<<endl;
     // printf("hello!/n");
     ROS_INFO("hello");
-=======
-    cout<<"hello"<<endl;
->>>>>>> c8d03547031f5d35d3359db16e91c7e866408a68
     if(('v'==getopt(argc,argv,"v"))){
         GetVersion();
         exit(0);

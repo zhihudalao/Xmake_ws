@@ -41,7 +41,8 @@ add_syslinks("pthread")
 target("motor_controller")    
     set_kind("binary")
     add_options("lib")
-    add_includedirs("include")
+    add_includedirs("include/i")
+    
     add_files("src/*.cpp")
 
 target_end()

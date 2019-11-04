@@ -1,6 +1,6 @@
 // This is client of the service demo
 // 包含必要文件，注意Service文件的包含方式，我们定义的srv文件为Greeting.srv,在包含时需要写成Greeting.h
-# include "ros/ros.h"
+# include <ros/ros.h>
 # include "Greeting.h"
 
 int main(int argc, char **argv)

@@ -32,8 +32,19 @@
         ,   "xmlrpcpp"
         ,   "rostime"
         ,   "cpp_common"
+        ,   "tf"
+        ,   "tf2_ros"
+        ,   "actionlib"
+        ,   "message_filters"
+        ,   "tf2"
         }
-    ,   version = "1.12.14"
+    ,   version = 
+        {
+            "1.12.14"
+        ,   "0.5.11"
+        ,   "1.11.9"
+        ,   "1.12.7"
+        }
     ,   ["__sourceinfo_linkdirs"] = 
         {
             ["/opt/ros/kinetic/lib"] = 

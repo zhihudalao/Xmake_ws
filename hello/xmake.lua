@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 -- define rule: markdown
 rule("markdown")
     set_extensions(".md", ".markdown")
@@ -55,8 +54,3 @@ target("test")
     --add_files("src/index.md")
     --add_files("src/test.c.in",  {rule = "c code"})
     --add_files("src/empty.stub", {rule = "stub"})
-=======
-target("hello")
-	set_kind("binary")
-	add_files("src/*.c")
->>>>>>> c8d03547031f5d35d3359db16e91c7e866408a68

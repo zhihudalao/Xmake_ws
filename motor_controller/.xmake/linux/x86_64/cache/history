@@ -4,5 +4,14 @@
     {
         "xmake"
     ,   "xmake run"
+    ,   "xmake"
+    ,   "xmake lua /home/lc/.local/share/xmake/actions/build/statistics.lua"
+    ,   "xmake"
+    ,   "xmake"
+    ,   "xmake"
+    ,   "xmake"
+    ,   "xmake"
+    ,   "xmake"
+    ,   "xmake"
     }
 }
